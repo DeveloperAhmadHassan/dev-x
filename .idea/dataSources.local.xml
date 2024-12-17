@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal" created-in="WS-242.23726.96">
+    <data-source name="whispr_db" uuid="1d96c856-7d02-411e-81cd-4fa921f95f2c">
+      <database-info product="Mongo DB" version="8.0.4" jdbc-version="4.2" driver-name="MongoDB JDBC Driver" driver-version="1.18" dbms="MONGO" exact-version="8.0.4" exact-driver-version="1.18" />
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>ahmadhassantariq921</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema" qname="whispr_db" />
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+  </component>
+</project>

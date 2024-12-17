@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="whispr_db">
+  <database-model serializer="dbm" dbms="MONGO" family-id="MONGO" format-version="4.53">
+    <root id="1">
+      <ServerVersion>8.0.4</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="admin">
+      <LastIntrospectionLocalTimestamp>2024-12-12.10:55:08</LastIntrospectionLocalTimestamp>
+    </schema>
+    <schema id="3" parent="1" name="local">
+      <LastIntrospectionLocalTimestamp>2024-12-12.10:55:08</LastIntrospectionLocalTimestamp>
+    </schema>
+    <schema id="4" parent="1" name="test">
+      <LastIntrospectionLocalTimestamp>2024-12-12.10:55:08</LastIntrospectionLocalTimestamp>
+    </schema>
+    <schema id="5" parent="1" name="whispr_db">
+      <Current>1</Current>
+      <LastIntrospectionLocalTimestamp>2024-12-12.17:55:06</LastIntrospectionLocalTimestamp>
+    </schema>
+    <table id="6" parent="5" name="messages"/>
+    <table id="7" parent="5" name="users"/>
+    <column id="8" parent="6" name="_id">
+      <Position>1</Position>
+      <StoredType>ObjectId|12s</StoredType>
+    </column>
+    <column id="9" parent="6" name="createdAt">
+      <Position>1</Position>
+      <StoredType>ISODate|91s</StoredType>
+    </column>
+    <column id="10" parent="6" name="image">
+      <Position>1</Position>
+      <StoredType>String|12s</StoredType>
+    </column>
+    <column id="11" parent="6" name="receiverId">
+      <Position>1</Position>
+      <StoredType>ObjectId|12s</StoredType>
+    </column>
+    <column id="12" parent="6" name="__v">
+      <Position>2</Position>
+      <StoredType>Int32|4s</StoredType>
+    </column>
+    <column id="13" parent="6" name="senderId">
+      <Position>2</Position>
+      <StoredType>ObjectId|12s</StoredType>
+    </column>
+    <column id="14" parent="6" name="text">
+      <Position>3</Position>
+      <StoredType>String|12s</StoredType>
+    </column>
+    <column id="15" parent="6" name="updatedAt">
+      <Position>4</Position>
+      <StoredType>ISODate|91s</StoredType>
+    </column>
+    <column id="16" parent="7" name="_id">
+      <Position>1</Position>
+      <StoredType>ObjectId|12s</StoredType>
+    </column>
+    <column id="17" parent="7" name="__v">
+      <Position>1</Position>
+      <StoredType>Int32|4s</StoredType>
+    </column>
+    <column id="18" parent="7" name="createdAt">
+      <Position>1</Position>
+      <StoredType>ISODate|91s</StoredType>
+    </column>
+    <column id="19" parent="7" name="password">
+      <Position>1</Position>
+      <StoredType>String|12s</StoredType>
+    </column>
+    <column id="20" parent="7" name="updatedAt">
+      <Position>1</Position>
+      <StoredType>ISODate|91s</StoredType>
+    </column>
+    <column id="21" parent="7" name="email">
+      <Position>2</Position>
+      <StoredType>String|12s</StoredType>
+    </column>
+    <column id="22" parent="7" name="profilePic">
+      <Position>2</Position>
+      <StoredType>String|12s</StoredType>
+    </column>
+    <column id="23" parent="7" name="fullName">
+      <Position>3</Position>
+      <StoredType>String|12s</StoredType>
+    </column>
+  </database-model>
+</dataSource>
